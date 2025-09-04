@@ -1,0 +1,51 @@
+/* Menu Page */
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+.menu-card {
+  background: #00897b;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.menu-input,
+.menu-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.menu-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #00897b;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.menu-button:hover {
+  background: #e0e0e0;
+}

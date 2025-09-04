@@ -1,0 +1,158 @@
+{
+  "easy": [
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "int", "string", "declare"],
+      "answer": "var"
+    },
+    {
+      "question": "Which company developed React?",
+      "options": ["Google", "Facebook", "Microsoft", "Twitter"],
+      "answer": "Facebook"
+    },
+    {
+      "question": "What is the correct extension for React files?",
+      "options": [".js", ".jsx", ".ts", ".html"],
+      "answer": ".jsx"
+    },
+    {
+      "question": "Which method is used to print messages in the browser console?",
+      "options": ["print()", "console.log()", "log.print()", "alert()"],
+      "answer": "console.log()"
+    },
+    {
+      "question": "Which hook is used to manage state in React?",
+      "options": ["useState", "useEffect", "useRef", "useMemo"],
+      "answer": "useState"
+    },
+    {
+      "question": "JavaScript is a ____ typed language.",
+      "options": ["Strongly", "Weakly", "Dynamically", "Statically"],
+      "answer": "Dynamically"
+    },
+    {
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "options": ["Number", "Boolean", "Float", "Undefined"],
+      "answer": "Float"
+    },
+    {
+      "question": "Which tag is used in HTML to include JavaScript code?",
+      "options": ["<js>", "<javascript>", "<script>", "<code>"],
+      "answer": "<script>"
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable?",
+      "options": ["=", "==", "===", "=>"],
+      "answer": "="
+    },
+    {
+      "question": "Which method displays an alert box in JavaScript?",
+      "options": ["alert()", "prompt()", "confirm()", "console.log()"],
+      "answer": "alert()"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What does useEffect hook replace in class components?",
+      "options": ["componentDidMount", "componentDidUpdate", "componentWillUnmount", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What will 'typeof NaN' return in JavaScript?",
+      "options": ["undefined", "number", "NaN", "object"],
+      "answer": "number"
+    },
+    {
+      "question": "Which hook is used to access context in React?",
+      "options": ["useState", "useEffect", "useContext", "useRef"],
+      "answer": "useContext"
+    },
+    {
+      "question": "What does ReactDOM.createRoot replace?",
+      "options": ["ReactDOM.render", "render()", "createElement()", "hydrate()"],
+      "answer": "ReactDOM.render"
+    },
+    {
+      "question": "What will be the output of: console.log(2 + '2');",
+      "options": ["22", "4", "Error", "NaN"],
+      "answer": "22"
+    },
+    {
+      "question": "Which React hook is used for mutable values that persist between renders?",
+      "options": ["useState", "useEffect", "useRef", "useMemo"],
+      "answer": "useRef"
+    },
+    {
+      "question": "What does '===' check in JavaScript?",
+      "options": ["Value only", "Type only", "Value and Type", "Reference"],
+      "answer": "Value and Type"
+    },
+    {
+      "question": "What is the default port for a React app started with Vite?",
+      "options": ["3000", "5000", "5173", "8080"],
+      "answer": "5173"
+    },
+    {
+      "question": "Which function is used to convert JSON to a string?",
+      "options": ["JSON.stringify()", "JSON.parse()", "JSON.toString()", "JSON.objectify()"],
+      "answer": "JSON.stringify()"
+    },
+    {
+      "question": "In React, props are ____.",
+      "options": ["Mutable", "Immutable", "Optional", "State variables"],
+      "answer": "Immutable"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What will the following output?\nconsole.log([] == ![]);",
+      "options": ["true", "false", "undefined", "error"],
+      "answer": "true"
+    },
+    {
+      "question": "Which hook in React allows you to optimize expensive calculations?",
+      "options": ["useMemo", "useEffect", "useRef", "useReducer"],
+      "answer": "useMemo"
+    },
+    {
+      "question": "What will this code log?\nconsole.log(typeof null);",
+      "options": ["null", "undefined", "object", "NaN"],
+      "answer": "object"
+    },
+    {
+      "question": "Which keyword creates a block-scoped variable in JavaScript?",
+      "options": ["var", "let", "const", "both let and const"],
+      "answer": "both let and const"
+    },
+    {
+      "question": "What is the virtual DOM in React?",
+      "options": ["A real copy of the DOM", "A lightweight JS object representation of the DOM", "A database", "A state manager"],
+      "answer": "A lightweight JS object representation of the DOM"
+    },
+    {
+      "question": "What will be the output?\nconsole.log(0.1 + 0.2 === 0.3);",
+      "options": ["true", "false", "undefined", "NaN"],
+      "answer": "false"
+    },
+    {
+      "question": "Which React feature helps in avoiding unnecessary re-renders?",
+      "options": ["React.memo", "useState", "useEffect", "useContext"],
+      "answer": "React.memo"
+    },
+    {
+      "question": "What does 'useReducer' hook help with?",
+      "options": ["Managing local state", "Managing global state", "Complex state logic", "Optimizing renders"],
+      "answer": "Complex state logic"
+    },
+    {
+      "question": "Which will be the output?\nconsole.log([] + {});",
+      "options": ["[object Object]", "{}", "undefined", "Error"],
+      "answer": "[object Object]"
+    },
+    {
+      "question": "Which React hook runs after every render by default?",
+      "options": ["useEffect", "useMemo", "useLayoutEffect", "useRef"],
+      "answer": "useEffect"
+    }
+  ]
+}
